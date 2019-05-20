@@ -1,4 +1,4 @@
-const { findMissingLetter } = require('../findMissingLetter')
+const { findMissingLetter } = require('../find-missing-letter')
 
 describe('findMissingLetter()', () => {
   it('', () => {

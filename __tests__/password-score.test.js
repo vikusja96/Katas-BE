@@ -1,4 +1,4 @@
-const { passwordScore } = require('../passwordScore');
+const { passwordScore } = require('../password-score');
 
 describe('passwordScore()', () => {
   it('', () => {

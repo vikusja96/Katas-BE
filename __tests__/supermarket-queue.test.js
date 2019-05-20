@@ -1,4 +1,4 @@
-const { supermarketQueue } = require('../supermarketQueue')
+const { supermarketQueue } = require('../supermarket-queue')
 
 describe('supermarketQueue()', () => {
   it('', () => {

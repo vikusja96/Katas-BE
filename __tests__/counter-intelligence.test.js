@@ -1,4 +1,4 @@
-const { counterIntelligence } = require('../counterIntelligence');
+const { counterIntelligence } = require('../counter-intelligence');
 
 describe('counterIntelligence()', () => {
   it('', () => {

@@ -1,4 +1,4 @@
-const { insertNewValue } = require('../insertNewValue')
+const { insertNewValue } = require('../insert-new-value')
 
 describe('insertNewValue()', () => {
   it('', () => {

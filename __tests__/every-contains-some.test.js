@@ -1,4 +1,4 @@
-const { every, contains, some } = require('../everyContainsSome');
+const { every, contains, some } = require('../every-contains-some');
 
 describe('everyContainsSome()', () => {
   it('', () => {

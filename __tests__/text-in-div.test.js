@@ -1,4 +1,4 @@
-const { textInDiv } = require('../textInDiv')
+const { textInDiv } = require('../text-in-div')
 
 describe('textInDiv()', () => {
   it('', () => {

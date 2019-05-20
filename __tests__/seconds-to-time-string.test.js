@@ -1,4 +1,4 @@
-const { secondsToTimeString } = require('../secondsToTimeString');
+const { secondsToTimeString } = require('../seconds-to-time-string');
 
 describe('secondsToTimeString()', () => {
   it('', () => {
