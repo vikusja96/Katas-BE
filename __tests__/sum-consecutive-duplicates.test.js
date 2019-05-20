@@ -1,4 +1,4 @@
-const { sumConsecutiveDuplicates } = require('../sumConsecutiveDuplicates');
+const { sumConsecutiveDuplicates } = require('../sum-consecutive-duplicates');
 
 describe('sumConsecutiveDuplicates()', () => {
   it('', () => {

@@ -1,4 +1,4 @@
-const { findClosingParenthesis } = require('../findClosingParenthesis')
+const { findClosingParenthesis } = require('../find-closing-parenthesis')
 
 describe('findClosingParenthesis()', () => {
   it('', () => {

@@ -1,7 +1,8 @@
-const { alphabetReplace } = require('../alphabetReplace')
+const { alphabetReplace } = require('../alphabet-replace')
 
 describe('alphabetReplace()', () => {
   it('', () => {
     // first test here
+
   })
 })

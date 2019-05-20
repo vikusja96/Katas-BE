@@ -1,4 +1,4 @@
-const { uniqueAndOrdered } = require('../uniqueAndOrdered')
+const { uniqueAndOrdered } = require('../unique-and-ordered')
 
 describe('uniqueAndOrdered()', () => {
   it('', () => {

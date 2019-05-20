@@ -1,4 +1,4 @@
-const { foldArray } = require('../foldArray')
+const { foldArray } = require('../fold-array')
 
 describe('foldArray()', () => {
   it('', () => {
