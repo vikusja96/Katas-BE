@@ -22,13 +22,13 @@ counterIntelligence('BCD Y') // should return 'ABC X' - the string has been shif
 
 
 ```javascript
-counterSpy('NKRRU YCKKZNKGXZ D') // should return 'HELLO SWEETHEART X'
+counterIntelligence('NKRRU YCKKZNKGXZ D') // should return 'HELLO SWEETHEART X'
 ```
 
 ```javascript
-counterSpy('ANVNVKNA CX YRLT DY IDLLQRWR XW HXDA FJH QXVN OAXV FXAT, MJAURWP G') // should return 'REMEMBER TO PICK UP ZUCCHINI ON YOUR WAY HOME FROM WORK, DARLING X'
+counterIntelligence('ANVNVKNA CX YRLT DY IDLLQRWR XW HXDA FJH QXVN OAXV FXAT, MJAURWP G') // should return 'REMEMBER TO PICK UP ZUCCHINI ON YOUR WAY HOME FROM WORK, DARLING X'
 ```
 
 ```javascript
-counterSpy('ngbk g toik jge :) d') // should return 'HAVE A NICE DAY :) X'
+counterIntelligence('ngbk g toik jge :) d') // should return 'HAVE A NICE DAY :) X'
 ```
