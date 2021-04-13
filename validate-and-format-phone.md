@@ -2,11 +2,10 @@
 
 The challenge is to implement a function which takes a string which should be a UK phone number
 
-* If the phone number is not valid in any format you should throw an error
-* The error message should be "Invalid phone number"
-* The phone number can be "valid" in many formats: +447, 00442, 07, 01, 02
+* If the phone number is not valid in any format you should return an error of: "Invalid phone number"
+* The phone number can be "valid" in many formats: +447, +441, +442, 00447, 00441, 00442, 07, 01, 02
 * Our application only accepts private phone numbers (07, 01, 02)
-* we are using [Twilio](https://www.twilio.com/) to text our customers when they place an order
+* We are using [Twilio](https://www.twilio.com/) to text our customers when they place an order
 * Twilio required numbers to be sent to their API in +447... format
 * Once a number has been validated it must be changed to the format Twilio requires
 
