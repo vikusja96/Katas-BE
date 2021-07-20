@@ -1,7 +1,8 @@
-// Please do not change the name of these functions
 
 const every = (list, predicate) => {
-  // Your code here
+  for (let i = 0; i < list.length; i++) {
+    if (!predicate(list[i])) return false;
+  } return true;
 };
 
 const contains = (list, value) => {
