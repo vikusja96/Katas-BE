@@ -6,7 +6,7 @@ const every = (list, predicate) => {
 };
 
 const contains = (list, value) => {
-  // Your code here
+  return list.includes(value);
 };
 
 const some = (list, predicate) => {
