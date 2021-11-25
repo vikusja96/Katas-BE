@@ -38,3 +38,15 @@ describe('contains', () => {
     expect(contains(array, value)).toEqual(true)
   })
 })
+describe('some', () => {
+  const number = (value) => typeof value === 'number';
+  test('returns false if passed an empty array', () => {
+    expect(some([], number)).toEqual(false)
+  })
+  test('return false if passed array does not contain number', () => {
+    expect(some(['hi', '3', {}, null], number)).toEqual(false)
+  })
+  test('return true if passed array contain number', () => {
+    expect(some(['hi', '3', 3, {}, null], number)).toEqual(true)
+  })
+})

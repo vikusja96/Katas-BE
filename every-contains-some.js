@@ -10,7 +10,12 @@ const contains = (list, value) => {
 };
 
 const some = (list, predicate) => {
-  // Your code here
+  const listWithNum = list.filter(value => predicate(value));
+  if (listWithNum.length > 0) {
+    return true
+  } else {
+    return false
+  }
 };
 
 module.exports = {
